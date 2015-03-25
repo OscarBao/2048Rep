@@ -1,0 +1,36 @@
+Name: Oscar Bao
+Username: cs8bajv
+Program File: README
+Date: 3/5/2015
+
+Short Response:
+    Vim Related Questions:
+        1. In vim, to find and replace every instance of the word
+            fun with amazing, enter command mode and type ":%s/fun/amazing/g"
+            In order to only replace the first instance in each line,
+            enter the command mode and type ":%s/fun/amazing"
+    Unix/Linux Questions:
+        2. In order to create a directory called fooDir with a directory
+            called barDir inside it, type "mkdir fooDir fooDir/barDir"
+        3. "javac *.java" compiles all .java extension files in a directory.
+        4. In order to open all java files in a directory with one command
+            in terminal with individual tabs, type "gvim -p *.java"
+        5. In regards to methods, static means that the method can be accessed
+            even without an object instanced in whatever class that method is
+            in. For example, Math.random doesn't require an object of class 
+            Math to be created.
+    Java Questions
+        6. Instead of having one single class for ShapeDrawer and methods
+            representing each class type, instead, the student should
+            have ShapeDrawer as a parent/superclass of certain classes.
+            ShapeDrawer should have a draw() method as well as a color
+            variable indicating that all ShapeDrawer subclasses should have 
+            a draw() method, as well as a color setting. ShapeDrawer
+            should have the subclasses Circle and Square, and both Circle
+            and Square will implement their colors in the constructors and
+            implement the drawing method. This will allow her to create
+            any other type of square or circle, or even any other type
+            of shape, easily, and, with the manipulation of inheritance, 
+            inherit certain traits from the ShapeDrawer and Circle/Square
+            parent classes without having to create one file with a huge
+            chunk of redundant code.
