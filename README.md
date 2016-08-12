@@ -1,1 +1,2 @@
-# 2048 Game
+# 2048
+JavaFX mock of the popular 2048 game
